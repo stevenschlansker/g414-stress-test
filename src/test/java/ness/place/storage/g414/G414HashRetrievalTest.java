@@ -50,6 +50,7 @@ public class G414HashRetrievalTest {
             hfb.add(kv.k, kv.v);
             keys.add(kv.k);
         }
+        System.out.println("Wrote " + keys.size());
 
         jp.close();
 
